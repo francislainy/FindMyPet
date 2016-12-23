@@ -10,17 +10,17 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:paddingTop="4dp"
-        android:background="@color/colorPrimary" >
+        android:background="@color/colorPrimary"
+        android:paddingTop="4dp">
 
         <ImageView
             android:id="@+id/cat_view"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/cat_paw"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cat_paw" />
 
     </RelativeLayout>
 
@@ -28,13 +28,12 @@
         android:layout_width="match_parent"
         android:layout_height="500dp">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/cat"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cat" />
 
     </LinearLayout>
-
 
 </LinearLayout>
